@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>GmailActions.png</string>
+		<key>label</key>
+		<string>GmailActions</string>
+	</dict>
+	<key>title</key>
+	<string>GmailActions</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+			<key>footerText</key>
+			<string>Master switch to enable or disable custom notification actions.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tb.gmailactions</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable Tweak</string>
+			<key>PostNotification</key>
+			<string>com.tb.gmailactions/settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Actions</string>
+			<key>footerText</key>
+			<string>Choose which additional or combined actions appear in notification menus.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tb.gmailactions</string>
+			<key>key</key>
+			<string>enableMarkAsRead</string>
+			<key>label</key>
+			<string>Mark as Read</string>
+			<key>PostNotification</key>
+			<string>com.tb.gmailactions/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tb.gmailactions</string>
+			<key>key</key>
+			<string>enableMarkAsReadAndArchive</string>
+			<key>label</key>
+			<string>Mark as Read &amp; Archive</string>
+			<key>PostNotification</key>
+			<string>com.tb.gmailactions/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tb.gmailactions</string>
+			<key>key</key>
+			<string>enableMarkAsReadAndDelete</string>
+			<key>label</key>
+			<string>Mark as Read &amp; Delete</string>
+			<key>PostNotification</key>
+			<string>com.tb.gmailactions/settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Native Actions</string>
+			<key>footerText</key>
+			<string>Toggle native buttons provided by Gmail.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tb.gmailactions</string>
+			<key>key</key>
+			<string>enableArchive</string>
+			<key>label</key>
+			<string>Archive</string>
+			<key>PostNotification</key>
+			<string>com.tb.gmailactions/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tb.gmailactions</string>
+			<key>key</key>
+			<string>enableTrash</string>
+			<key>label</key>
+			<string>Trash (Delete)</string>
+			<key>PostNotification</key>
+			<string>com.tb.gmailactions/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tb.gmailactions</string>
+			<key>key</key>
+			<string>enableReply</string>
+			<key>label</key>
+			<string>Reply</string>
+			<key>PostNotification</key>
+			<string>com.tb.gmailactions/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tb.gmailactions</string>
+			<key>key</key>
+			<string>enableReplyAll</string>
+			<key>label</key>
+			<string>Reply All</string>
+			<key>PostNotification</key>
+			<string>com.tb.gmailactions/settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>GmailActions v1.1.1 by tb • Changes apply immediately without respring.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

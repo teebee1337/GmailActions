@@ -1,0 +1,9 @@
+# Theos and build outputs
+.theos/
+packages/
+*.deb
+*.dylib
+
+# OS metadata
+.DS_Store
+Thumbs.db

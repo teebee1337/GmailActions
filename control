@@ -1,0 +1,9 @@
+Package: com.tb.gmailactions
+Name: GmailActions
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Description: Configurable background notification actions and buttons (Archive, Trash, Reply, Reply All, Mark as Read, Mark as Read & Archive, Mark as Read & Delete) for Gmail on iOS 15+ (Dopamine Rootless).
+Maintainer: tb
+Author: tb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
